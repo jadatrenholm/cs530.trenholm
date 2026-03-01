@@ -1,0 +1,67 @@
+==== PCAP SUMMARY ====
+Total packets: 300
+IPv4 packets: 167
+IPv6 packets: 125
+Non-IP packets: 8
+
+==== TTL / Hop Limit distributions ====
+IPv4 TTL:
+  1: 2
+  64: 35
+  255: 130
+IPv6 Hop Limit:
+  255: 125
+
+==== Protocol distribution ====
+  UDP: 247
+  ICMP: 35
+  ICMPv6: 8
+  Non-IP: 8
+  OTHER(2): 2
+
+==== Header sizes observed (bytes) ====
+  20: 165
+  24: 2
+  40: 125
+
+==== DECODED HEADER LOG (first 40 packets) ====
+IPv4 src=192.168.1.254 dst=192.168.1.140 ver=4 ihl=5 hdr_bytes=20 len=84 id=9511 DF=1 MF=0 frag_off=0 ttl=64 proto=ICMP(1) chksum=0x90a7
+IPv4 src=192.168.1.140 dst=192.168.1.254 ver=4 ihl=5 hdr_bytes=20 len=84 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=ICMP(1) chksum=0xb5ce
+IPv4 src=192.168.1.254 dst=192.168.1.140 ver=4 ihl=5 hdr_bytes=20 len=84 id=9538 DF=1 MF=0 frag_off=0 ttl=64 proto=ICMP(1) chksum=0x908c
+IPv4 src=192.168.1.140 dst=192.168.1.254 ver=4 ihl=5 hdr_bytes=20 len=84 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=ICMP(1) chksum=0xb5ce
+IPv4 src=192.168.1.254 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=57 id=46775 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0x215a
+IPv4 src=192.168.1.254 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=57 id=46776 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0x2159
+IPv4 src=192.168.1.145 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=107 id=2155 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xcfe1
+IPv4 src=192.168.1.254 dst=224.0.0.1 ver=4 ihl=6 hdr_bytes=24 len=36 id=42196 DF=1 MF=0 frag_off=0 ttl=1 proto=OTHER(2)(2) chksum=0x9c97
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=83 id=61739 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe760
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=83 id=61740 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe75f
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=86 id=61741 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe75b
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=93 id=61742 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe753
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=82 id=61743 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe75d
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=82 id=61744 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe75c
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=96 id=61745 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe74d
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=110 id=61746 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe73e
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=110 id=61747 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe73d
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=65 id=61748 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe769
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=73 id=61749 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe760
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=65 id=61750 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe767
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=61 id=61751 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe76a
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=72 id=61752 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe75e
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=82 id=61753 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe753
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=66 id=61754 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe762
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=62 id=61755 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe765
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=64 id=61756 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe762
+IPv4 src=192.168.1.105 dst=224.0.0.251 ver=4 ihl=5 hdr_bytes=20 len=73 id=61757 DF=1 MF=0 frag_off=0 ttl=255 proto=UDP(17) chksum=0xe758
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=63 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=63 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=66 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=73 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=62 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=62 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=76 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=90 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=90 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=45 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=53 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=45 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40
+IPv6 src=fe80::86eb:3eff:fef6:3aea dst=ff02::fb ver=6 tc=0 fl=0x8ac2a plen=41 nh=17 hlim=255 ext_chain=None upper=UDP hdr_bytes~40

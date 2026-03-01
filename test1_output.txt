@@ -1,0 +1,71 @@
+==== PCAP SUMMARY ====
+Total packets: 500
+IPv4 packets: 436
+IPv6 packets: 37
+Non-IP packets: 27
+
+==== TTL / Hop Limit distributions ====
+IPv4 TTL:
+  1: 1
+  64: 226
+  249: 50
+  250: 156
+  255: 3
+IPv6 Hop Limit:
+  64: 15
+  255: 22
+
+==== Protocol distribution ====
+  TCP: 366
+  UDP: 85
+  Non-IP: 27
+  ICMPv6: 20
+  ICMP: 1
+  OTHER(2): 1
+
+==== Header sizes observed (bytes) ====
+  20: 435
+  24: 1
+  40: 37
+
+==== DECODED HEADER LOG (first 40 packets) ====
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=2 fl=0x80100 plen=825 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::1881:d9cd:914b:ae69 ver=6 tc=0 fl=0x80f00 plen=32 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::1881:d9cd:914b:ae69 ver=6 tc=2 fl=0x80f00 plen=179 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=0 fl=0x80100 plen=32 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=2 fl=0x80100 plen=149 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::1881:d9cd:914b:ae69 ver=6 tc=0 fl=0x80f00 plen=32 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=64 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb680
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=64 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb680
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=109 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb653
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=1500 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb0e2
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=436 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb50a
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::1881:d9cd:914b:ae69 ver=6 tc=2 fl=0x80f00 plen=95 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=0 fl=0x80100 plen=32 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=2 fl=0x80100 plen=1460 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::1881:d9cd:914b:ae69 dst=fe80::898:50d:379d:703 ver=6 tc=2 fl=0x80100 plen=1098 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::1881:d9cd:914b:ae69 ver=6 tc=0 fl=0x80f00 plen=32 nh=6 hlim=64 ext_chain=None upper=TCP hdr_bytes~40
+IPv6 src=fe80::7a67:eff:fe6f:c11 dst=ff02::1:ff9d:703 ver=6 tc=0 fl=0x56ba6 plen=32 nh=58 hlim=255 ext_chain=None upper=ICMPv6 hdr_bytes~40
+IPv6 src=fe80::898:50d:379d:703 dst=fe80::7a67:eff:fe6f:c11 ver=6 tc=0 fl=0x00000 plen=32 nh=58 hlim=255 ext_chain=None upper=ICMPv6 hdr_bytes~40
+IPv4 src=17.57.144.38 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=490 id=37380 DF=1 MF=0 frag_off=0 ttl=250 proto=TCP(6) chksum=0x89b9
+IPv4 src=192.168.1.70 dst=17.57.144.38 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xd776
+IPv4 src=192.168.1.70 dst=17.57.144.38 ver=4 ihl=5 hdr_bytes=20 len=84 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xd754
+IPv4 src=17.57.144.38 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=37381 DF=1 MF=0 frag_off=0 ttl=250 proto=TCP(6) chksum=0x8b70
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=64 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb680
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=64 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb680
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=109 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb653
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=1500 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb0e2
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=436 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb50a
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.161 dst=192.168.1.70 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
+IPv4 src=192.168.1.70 dst=192.168.1.161 ver=4 ihl=5 hdr_bytes=20 len=52 id=0 DF=1 MF=0 frag_off=0 ttl=64 proto=TCP(6) chksum=0xb68c
