@@ -1,0 +1,7 @@
+Experiment,Protocol,Delivery Time,Retransmissions,Percent Delivered,Waiting Time,Stored Bundles
+Experiment 1: Continuous Connectivity,TCP-style,6010,0,100.0,0,N/A
+Experiment 1: Continuous Connectivity,DTN-style,430,0,100.0,0,10
+Experiment 2: Intermittent Connectivity,TCP-style,Not completed,0,0.0,20002,N/A
+Experiment 2: Intermittent Connectivity,DTN-style,1330,0,100.0,900,10
+Experiment 3: Lossy Network,TCP-style,6010,0,100.0,0,N/A
+Experiment 3: Lossy Network,DTN-style,431,0,100.0,0,10
